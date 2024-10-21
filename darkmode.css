@@ -1,0 +1,116 @@
+body{
+    background-color: #b3b3b3;
+    text-align: center;
+}
+
+/*Carousel style starts*/
+.carousel-inner{
+   padding-left: 10%;
+}
+
+.carousel-item{
+    padding-left: 10%;
+}
+.carousel-indicators{
+    padding-left: 10%;
+}
+
+.carousel-control-prev{
+    margin-left: 13%;
+}
+.carousel-control-next{
+    margin-right: 9%;
+}
+/*Carousel style end*/
+
+
+/*Nav-links style*/
+.nav-item{
+  margin-right: 12%;
+  font-size: large;
+}
+
+.logged_out{
+    margin-right: 25%;
+}
+
+.navbar-custom{
+    width: 105%;
+    background-color: #62A388;
+}
+
+.loggedin_nav{
+    padding-right: 20%;
+}
+/*Nav-link style ends*/
+
+/*Footer*/
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #62A388;
+}
+
+/*Displays the background image of cheetah on login page*/
+.login_page{
+    background-image: url(images/cheetah.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+form{
+ padding-top: 0.5%;
+ padding-bottom: 0.5%;
+}
+
+/*Makes the date field darker to suit the theme*/
+input[type="date"]{
+    background-color: grey;
+    color: wheat;
+}
+/*Makes the time input field darker*/
+input[type="time"]{
+    background-color: grey;
+    color: wheat;
+}
+
+/*Makes the number input field darker*/
+input[type="number"]{
+    background-color: grey;
+    color: wheat;
+}
+/*Makes the placeholder lighter to be more readable*/
+::placeholder{
+    color: wheat;
+}
+.ticket_form{
+    padding-left: 4%;
+}
+
+.hotel_form{
+    padding-bottom: 20%;
+    margin-left: 5%;
+}
+
+
+/*Form styling ends*/
+
+/*Card style starts*/
+.card-body{
+    background-color: gray;
+}
+
+
+
+/*Displays an image of meerkat - ticket page when users aren't signed in*/
+.ticket_page{
+    background-image: url(images/meerkat.jpg);
+    /*Ensures the meerkats aren't duplicated*/
+    background-repeat: no-repeat;
+    /*Covers the whole page*/
+    background-size: cover;
+    height: 100vh;
+}

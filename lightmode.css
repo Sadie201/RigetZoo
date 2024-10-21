@@ -1,0 +1,87 @@
+body{
+    background-color: #F4F9F9;
+    text-align: center;
+}
+
+/*Carousel colour*/
+.carousel-inner{
+   padding-left: 10%;
+}
+
+.carousel-item{
+    padding-left: 10%;
+}
+.carousel-indicators{
+    padding-left: 10%;
+}
+
+.carousel-control-prev{
+    margin-left: 13%;
+}
+.carousel-control-next{
+    margin-right: 9%;
+}
+/*Carousel style end*/
+
+
+/*Nav-links style*/
+.nav-item{
+  margin-right: 12%;
+  font-size: large;
+}
+
+.logged_out{
+    margin-right: 25%;
+}
+
+.navbar-custom{
+    width: 105%;
+    background-color: #BFD8AF;
+}
+
+.loggedin_nav{
+    padding-right: 20%;
+}
+/*Nav-link style ends*/
+
+/*Footer*/
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #BFD8AF;
+
+}
+
+/*Displays the background image of cheetah on login page*/
+.login_page{
+    background-image: url(images/cheetah.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+
+form{
+ padding-top: 0.5%;
+ padding-bottom: 0.5%;
+}
+
+/*Displays an image of meerkat - ticket page when users aren't signed in*/
+.ticket_page{
+    background-image: url(images/meerkat.jpg);
+    /*Ensures the meerkats aren't duplicated*/
+    background-repeat: no-repeat;
+    /*Covers the whole page*/
+    background-size: cover;
+    height: 100vh;
+}
+
+.ticket_form{
+    padding-left: 4%;
+}
+
+.hotel_form{
+    padding-bottom: 20%;
+    margin-left: 5%;
+}
